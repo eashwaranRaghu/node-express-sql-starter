@@ -16,8 +16,8 @@ Getting Started
 
 ```sh
 # clone it
-git clone git@github.com:developit/express-es6-rest-api.git
-cd express-es6-rest-api
+git clone https://github.com/eashwaranRaghu/node-express-sql-starter.git
+cd node-express-sql-starter
 
 # Make it your own
 rm -rf .git && git init && npm init
