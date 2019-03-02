@@ -14,7 +14,12 @@ const exp = {
         dialect: 'mysql'
     },
     tokenSecret: 'asdfjkl0902g',
-    port: process.env.PORT || 8080
+    port: process.env.PORT || 8080,
+    smtp: {
+        service: '',
+        email: '',
+        password: ''
+    }
 };
 
 module.exports = exp;
